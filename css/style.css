@@ -1,0 +1,222 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+#navbar{
+    display:flex;
+    align-items: center;
+    /*text-decoration: none;*/
+}
+#logo{
+    margin:10px  20px;
+    border:2px solid rgb(224, 117, 29);
+    
+}
+#logo img{
+    height:70px;
+    padding:10px;
+}
+#navbar ul{
+    display: flex;
+}
+#navbar ul li {
+    color:rgb(224, 117, 29);
+    list-style: none;
+    font-family:'Noto Sans', sans-serif;
+    font-size: 20px;
+}
+#navbar ul li a{
+    display:block;
+    text-decoration: none;
+    padding:4px;
+    margin-top:3px;
+    margin-left:10px;
+    margin-right:2px;
+    margin-bottom:10px;
+}
+#navbar::before{
+    content:"";
+    position:absolute;
+    background-color: rgb(110, 110, 107);
+    width:100%;
+    height:100%;
+    z-index: -1;
+    opacity:0.1;
+}
+#navbar{
+    position:relative;
+}
+#navbar ul li a:hover{
+        color:black;
+        background-color: white;
+        border-radius:3px ;
+}
+/*Home Section*/
+#home{
+    display:flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    height:515px;
+}
+#home::before{
+    content:" ";
+    position:absolute;
+    background:url('https://cdn.pixabay.com/photo/2020/05/17/04/22/pizza-5179939_640.jpg')no-repeat center center/cover;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    z-index: -1;
+    opacity:0.8;
+}
+.h-primary{
+    font-size: 3.4rem;
+    padding:8px;
+}
+#home h1{
+    color:rgb(224, 117, 29);
+    font-family: 'Anton', sans-serif;
+}
+#home p{
+    text-align: center;
+    font-family: 'Edu SA Beginner', cursive;
+}
+.btn{
+    padding:5px 20px;
+    margin:20px 10px; 
+    border:2px solid white;
+    color: aliceblue;
+    background-color:rgb(224, 117, 29);
+    font-size: 1.5rem;
+    box-shadow:5px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#services{
+    margin:34px;
+    display:flex;
+}
+/*#services{
+       
+        content:" ";
+        position:relative;
+        background:url('https://img.rawpixel.com/private/static/images/website/2022-05/is16062-image-kwvyfkwr.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=a4c54f77681e4e7f2cbb7e81b849941c')no-repeat center center/cover;
+        top:0px;
+        left:0px;
+        width:100%;
+        height:100%;
+        z-index: -1;
+        opacity:0.8;
+        border: 5px solid rgb(224, 117, 29);
+    
+}*/
+.primarycenter{
+    font-size: 50px;
+    color:rgb(224, 117, 29);
+    text-align: center;
+    padding:10px;
+    padding-top: 0px;
+    margin-top:0px;
+    margin-left:10px;
+    margin-right:10px;
+    margin-bottom:-20px;
+    font-family: 'Lato', sans-serif;
+    border:2px solid rgb(224, 117, 29);
+    background-color:#f2f2f2;
+    box-shadow: 5px;
+    margin-left:250px;
+    margin-right:250px;
+    margin-top:10px;
+    margin-bottom:20px;
+    border-radius: 8px;
+    box-shadow: 5px 5px;
+    
+}
+.box{
+    border: 2px solid rgb(224, 117, 29);
+    margin:20px;
+    padding:10px;
+    text-align: center;
+    background-color:#f2f2f2;
+    border-radius: 18px;
+    font-family: 'Edu SA Beginner', cursive;
+}
+.pcenter{
+    font-size: 50px;
+    border:2px solid rgb(224, 117, 29);
+    background-color:#f2f2f2;
+    align-items: center;
+    display:flex;
+    padding:10px;
+    margin-left:250px;
+    margin-right:250px;
+    margin-top:10px;
+    margin-bottom:20px;
+    justify-content: center;
+    color:rgb(224, 117, 29);
+    box-shadow:5px 5px;
+    border-radius: 8px;
+}
+#clients{
+    height:500px;
+    
+}
+#clients{
+    
+    content:"";
+    position:relative;
+    display: flex;
+    background:url('https://images.pexels.com/photos/1639557/pexels-photo-1639557.jpeg?cs=srgb&dl=pexels-valeria-boltneva-1639557.jpg&fm=jpg')
+    no-repeat center center/cover;
+    top:0;
+    left:0;
+    z-index: -1;
+    opacity:0.8;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid rgb(224, 117, 29);
+}
+.clientitem{
+    padding:0px;
+    margin:35px;
+}
+/*CONTACT SECTION*/
+#contactbox{
+      
+    content:"";
+    position:relative;
+    display: flex;
+    top:0;
+    left:0;
+    z-index: -1;
+    opacity:0.8;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgb(224, 117, 29);
+    background: url('https://media.istockphoto.com/id/1049658692/photo/contact-us.jpg?b=1&s=612x612&w=0&k=20&c=LxpMGsjIP5xZQKoGkFUqrlWHFGRuEyAngTw15V8_Q9M=')
+    no-repeat center center/cover;
+    height:500px;
+}
+footer{
+    color:white;
+    background-color: black;
+    padding:3px;
+    text-align: center;
+    font-size: 28px;
+}
+#contactbox{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+#contactbox input,
+#contactbox textarea{
+    width:100%;
+    padding:4px;
+}
+#contactbox label{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

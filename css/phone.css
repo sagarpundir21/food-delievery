@@ -1,0 +1,44 @@
+/*navigation bar*/
+
+#navbar{
+    display:flex;
+    flex-direction: column;
+    
+}
+/*home*/
+#home{
+    display:flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+#home::before{
+    content:" ";
+    position:relative;
+    background:url('https://cdn.pixabay.com/photo/2020/05/17/04/22/pizza-5179939_640.jpg')no-repeat center center/cover;
+    top:0;
+    left:0;
+    width:100%;
+    height:auto;
+    z-index: -1;
+    opacity:0.8;
+}    
+
+
+
+
+/*client section*/
+#clients{
+    overflow: hidden;
+}
+
+/*service section*/
+#services{
+    display: flex;
+    flex-direction:column ;
+}
+
+
+/*contact section*/
